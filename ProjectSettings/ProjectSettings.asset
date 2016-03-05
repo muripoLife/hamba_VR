@@ -89,16 +89,16 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.divegames.diveDemo
+  bundleIdentifier: com.ogiCom.Ogi
   bundleVersion: 2.15
   preloadedAssets: []
   metroEnableIndependentInputSource: 0
   metroEnableLowLatencyPresentationAPI: 0
   xboxOneDisableKinectGpuReservation: 0
-  virtualRealitySupported: 0
+  virtualRealitySupported: 1
   productGUID: 448f10ff71a56fa42a12619918424667
   AndroidBundleVersionCode: 15
-  AndroidMinSdkVersion: 9
+  AndroidMinSdkVersion: 22
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   apiCompatibilityLevel: 2
