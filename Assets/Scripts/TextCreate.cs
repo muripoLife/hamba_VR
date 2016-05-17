@@ -64,7 +64,6 @@ public class TextCreate : SingletonMonoBehaviour<TextCreate> {
 		m_textAnimation.GetComponent<Text2Animation> ()
 			.isCreateTextObservable
 			.Subscribe(p=>Next(p));
-		m_textAnimation.transform.LookAt(Sphere.Instance.gameObject.transform,Vector3.up);
 	}
 
 	void Next(bool flag){

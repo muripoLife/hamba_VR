@@ -17,16 +17,16 @@ public class AudioManager : SingletonMonoBehaviour<AudioManager> {
 		KIRAKIRA,
 	}
 
-	[SerializeField] AudioSource m_hanabi;
-	[SerializeField] AudioSource m_kirakira;
+	//[SerializeField] AudioSource m_hanabi;
+	//[SerializeField] AudioSource m_kirakira;
 
 	public void Play(SE se){
 		switch (se){
 		case SE.HANABI:
-			m_hanabi.Play();
+			//m_hanabi.Play();
 			break;
 		case SE.KIRAKIRA:
-			m_kirakira.Play();
+			//m_kirakira.Play();
 			break;
 		}
 	}

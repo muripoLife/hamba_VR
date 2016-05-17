@@ -91,7 +91,7 @@ public class HeadTracking : SingletonMonoBehaviour<HeadTracking>
 		log (" Time sinse fromStartup : " + Time.realtimeSinceStartup + "[12345678901234567890]");
 		log (" lotate x : " + lotate_x);
 		log (" lotate y : " + lotate_y);
-		log (" 縦振りの回数 : " + down_count2 + " 縦振りの回数 : " + side_count2);
+		//log (" 縦振りの回数 : " + down_count2 + " 縦振りの回数 : " + side_count2);
 		log (" プロポーズの結果 : " + text);
 
 		// 縦振り未検出
@@ -148,7 +148,7 @@ public class HeadTracking : SingletonMonoBehaviour<HeadTracking>
 							m_isGETYESNOStream.OnCompleted();
 							isHeadGesture = true;
 							return;
-							down_count2 = 0;
+							//down_count2 = 0;
 						}
 					}
 				} 
@@ -178,7 +178,7 @@ public class HeadTracking : SingletonMonoBehaviour<HeadTracking>
 							m_isGETYESNOStream.OnCompleted();
 							isHeadGesture = false;
 							return;
-							side_count2 = 0;
+							//side_count2 = 0;
 						}
 					}
 				} 
